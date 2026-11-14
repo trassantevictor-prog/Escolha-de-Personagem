@@ -1,0 +1,127 @@
+/*  * = Tudo  */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Bangers", system-ui;
+}
+
+/*  * = HTML  */
+
+html {
+
+    /* altura */
+    height: 100%;
+}
+
+/*  * = BODY  */
+
+body {
+
+    background-image: url("img/background2.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+/*  * = NOME  */
+
+.nome {
+
+    color: rgb(206, 201, 201);
+    font-size: 28vh;
+    position: absolute;
+    bottom: 55vh;
+    text-align: center;
+    width: 100%;
+
+}
+
+/*  * = PERSONAGEM  */
+
+.personagem {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: 550px;
+    margin: auto;
+}
+
+/*  * = TEXTOS  */
+
+.textos {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+}
+
+/*  * = ETIQUETA  */
+
+.etiqueta {
+    color: rgb(224, 212, 33);
+    font-size: 26px;
+
+}
+
+/*  * = TITULO  */
+
+h1 {
+    color: rgb(233, 226, 226);
+    font-size: 72px;
+
+}
+
+/*  * = TEXTO DE APOIO  */
+
+.texto-apoio {
+    color: rgb(233, 226, 226);
+    font-size: 28px;
+    width: 400px;
+
+}
+
+/*  * = MENU  */
+
+.menu {
+    position: absolute;
+    bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+
+}
+
+/*  * = AVATAR  */
+
+.avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+    border: 2px solid rgb(240, 239, 236);
+    cursor: pointer;
+
+}
+
+/*  * = VOCE  */
+
+.voce {
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    border: 2px solid rgb(240, 239, 236);
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: rgb(230, 179, 28);
+    cursor: pointer;
+}
+
+.voce img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
