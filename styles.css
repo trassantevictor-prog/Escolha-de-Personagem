@@ -1,4 +1,4 @@
-/*  * = Tudo  */
+
 
 * {
     margin: 0;
@@ -6,15 +6,13 @@
     font-family: "Bangers", system-ui;
 }
 
-/*  * = HTML  */
 
 html {
 
-    /* altura */
+    
     height: 100%;
 }
 
-/*  * = BODY  */
 
 body {
 
@@ -24,7 +22,7 @@ body {
 
 }
 
-/*  * = NOME  */
+
 
 .nome {
 
@@ -37,7 +35,7 @@ body {
 
 }
 
-/*  * = PERSONAGEM  */
+
 
 .personagem {
     position: absolute;
@@ -49,7 +47,7 @@ body {
     margin: auto;
 }
 
-/*  * = TEXTOS  */
+
 
 .textos {
     position: absolute;
@@ -57,7 +55,7 @@ body {
     left: 40px;
 }
 
-/*  * = ETIQUETA  */
+
 
 .etiqueta {
     color: rgb(224, 212, 33);
@@ -65,7 +63,7 @@ body {
 
 }
 
-/*  * = TITULO  */
+
 
 h1 {
     color: rgb(233, 226, 226);
@@ -73,7 +71,7 @@ h1 {
 
 }
 
-/*  * = TEXTO DE APOIO  */
+
 
 .texto-apoio {
     color: rgb(233, 226, 226);
@@ -82,7 +80,7 @@ h1 {
 
 }
 
-/*  * = MENU  */
+
 
 .menu {
     position: absolute;
@@ -95,7 +93,6 @@ h1 {
 
 }
 
-/*  * = AVATAR  */
 
 .avatar {
     width: 60px;
@@ -108,7 +105,7 @@ h1 {
 
 }
 
-/*  * = VOCE  */
+
 
 .voce {
     width: 60px;
