@@ -1,10 +1,8 @@
 <!DOCTYPE html>
-<!-- Versão do HTML (HTML5) -->
 
-<!-- lang="pt-br" = idioma da página: português do Brasil -->
 <html lang="pt-br">
 
-<!-- Cabeçalho (head): configurações do site, como título, estilos e fontes -->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,25 +12,25 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
 
-    <!-- Título do site (aparece na aba do navegador) -->
+
     <title>Escolha de Personagens</title>
 </head>
 
-<!-- Corpo (body): tudo que aparece na página -->
+
 <body>
 
     <p class="nome">Lucia</p>
 
     <img class="personagem" src="img/lucia.png" alt="Personagem selecionado">
 
-    <!-- Textos: etiqueta, título e subtítulo -->
+    
     <div class="textos">
         <p class="etiqueta">Selecione o seu Personagem</p>
         <h1>Não é só <br>um Jogo</h1>
         <p class="texto-apoio">Escolha uma lenda de Dev City. Ou tire uma selfie e vire uma.</p>
     </div>
 
-    <!-- Menu: ao clicar em cada avatar, chama a função escolherPersonagem() com nome, imagem e cor -->
+    
     <div class="menu">
 
         <img onclick="escolherPersonagem('lucia', 'img/lucia.png', '#ff3cac')" class="avatar" src="img/lucia.png" alt="Lucia">
@@ -41,16 +39,14 @@
 
         <img onclick="escolherPersonagem('cj', 'img/cj.png', '#7ed37e')" class="avatar" src="img/cj.png" alt="CJ">
 
-        <!-- Botão "Você": abre a escolha de foto; ao escolher, chama lerFoto() e a IA cria o personagem -->
         <button class="voce" onclick="document.getElementById('foto').click()"><img src="img/cam.jpeg" alt="Você"></button>
         <input type="file" id="foto" accept="image/*" hidden onchange="lerFoto(this)">
 
     </div>
 
-    <!-- Puter.js: biblioteca que dá acesso à IA que gera o personagem (precisa vir antes do scripts.js) -->
     <script src="https://js.puter.com/v2/"></script>
 
-    <!-- Script do site: as funções em JavaScript ficam em scripts.js -->
+
     <script src="scripts.js"></script>
 
 </body>
